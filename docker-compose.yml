@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  func-rb:
+    image: ruby:3.4.1
+    working_dir: /func-rb
+    volumes:
+      - .:/func-rb
