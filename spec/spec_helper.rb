@@ -4,7 +4,7 @@
 # this file to always be loaded, without a need to explicitly require it in any
 # files.
 #
-dirs = ['parking_lot']
+dirs = %w[parking_lot funcky]
 
 dirs.each do |dir|
   Dir.glob("./#{dir}/**/*.rb").each { |f| require f }
